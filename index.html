@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parasol Pottery</title>
+        <meta property="og:url" content=""/>
+        <meta property="og:title" content="Parasol Pottery"/>
+        <meta property="og:description" content = "Welcome to Parasol Pottery"/>
+        <meta property="og:image" content=""/>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        </script> 
+        <script src = "assets/js/jquery.waypoints.min.js"></script>
+        <script src = "assets/js/script.js"></script>
+        <script src = "assets/js/smoothscroll.js"></script>
+        <script src = "assets/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src = "assets/js/typed.js"></script>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("home");
+            if (x.className == "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+        </script>
+
+    </head>
+    <body>
+        <div class = "navbar">
+            <div class = "logo">
+                <img src = "assets/img/PP-Logo.png">
+            </div>
+            <div class = "subscription-box">
+                <div class = "subscription-title">SUBSCRIBE TO OUR NEWSLETTER</div>
+                <div class = "subscription-form">
+                    <form action="action_page.php">
+                        <input type="text" name="email" value="Enter your email address">
+                        <input type="submit" value="JOIN">
+                    </form>
+                </div>
+            </div>
+            <div class = "cart">
+                <img src = "assets/img/cart.png">
+            </div>
+            <div class = "navbar-elements">
+                <div class = "item">HOME</div>
+                <div class = "item">ABOUT</div>
+                <div class = "item">STORE</div>
+                <div class = "item">GALLERY</div>
+                <div class = "item">CONTACT</div>
+            </div>
+            <div class = "comission">COMMISSIONS</div>
+            <div class = "social-media"></div>
+        </div>
+        <div class = "image-container">
+            <div class = "image-row">
+                <div class = "home-image" id = "image-1">CUSTOM</div>
+                <div class = "home-image" id = "image-2"></div>
+                <div class = "home-image" id = "image-3">PERSONAL</div>
+            </div>
+            <div class = "image-row">
+                <div class = "home-image" id = "image-4"></div>
+                <div class = "home-image" id = "image-5">HANDMADE</div>
+                <div class = "home-image" id = "image-6"></div>
+            </div>
+        </div>
+    </body>
+</html>
